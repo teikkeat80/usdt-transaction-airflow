@@ -32,7 +32,7 @@ To terminate the process, simply go back to the terminal and run `docker-compose
 
 Note: The docker-compose.yaml file from this directory is fetched from the [apache airflow official website](https://airflow.apache.org/docs/apache-airflow/2.5.3/howto/docker-compose/index.html) with slight modifications - adding the ports into postgres service and switch off the load examples function. You can modify the other parameters such as '_AIRFLOW_WWW_USER_USERNAME', '_AIRFLOW_WWW_USER_PASSWORD', etc., based on your needs. You can also build your own docker-compose.yaml file and Dockerfile using images from [Docker Hub](https://hub.docker.com/)
 
-**Reminder: Please input your own EtherScan API key in utils.py, line 9**
+**Reminder: Please input your own EtherScan API key in dags/utils.py, line 9**
 
 ### Pre-requisites
 - Airflow Python packages
