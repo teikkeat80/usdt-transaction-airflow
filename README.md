@@ -38,4 +38,4 @@ Note: The docker-compose.yaml file from this directory is fetched from the [apac
 - Airflow Python packages
 - EtherScan API key
 - PostgreSQL database
-- Docker (Warning for mac users: by default docker will have a memory of 3.9GB, which is not sufficient for the airflow image creation process - 4GB memory required. I did adjusted my memory usage on the docker app ('settings' > 'Resources' > 'Advanced') but this is not recommended and contains risks for crashing your host machine.)
+- Docker (Warning for mac users: by default docker will have a memory of 3.9GB, which is not sufficient for the airflow image creation process - 4GB memory required. I did adjusted my memory usage on the docker app ('settings' > 'Resources' > 'Advanced') but this is not recommended for low memory macs and contains risks for crashing your host machine.)
