@@ -1,4 +1,4 @@
-# USDT-transactions-data-pipeline
+# USDT transactions data pipeline
 ## Project Summary
 This project applied Apache Airflow to build and orchestrate an ETL data pipeline for storing USDT transaction data into a PostgreSQL database. The Airflow data pipeline runs in docker containers and can be monitored on the Airflow User Interface. The pipeline is customisable - which allows you to size up the data consumption per batch, to get other ERC-20 token transaction data, etc., based on use cases.
 
